@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* color */
+  --text-color: #fff;
+  --text-color-alt: #a1a1a6;
+  --accent-color: #0071e3;
+  --acent-color-alt: #2997ff;
+  --body-bg: #000;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--text-color); 
+  background-color: var(--body-bg);
+  overflow-x: hidden;
+}
+
+button {
+  all: unser;
+  cursor: pointer;
+}
+
+a {
+  color: var(--acent-color-alt);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 
+
+@media screen and (min-width: 360px) {}
+
+@media screen and (min-width: 734px) {}
+
+@media screen and (min-width: 1024px) {}
+
+*/
