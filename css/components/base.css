@@ -21,6 +21,7 @@
 
   /* Utils */
   --header-height: 3rem;
+  --time: 150ms;
 }
 
 body {
