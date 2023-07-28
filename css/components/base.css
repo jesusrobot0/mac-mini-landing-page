@@ -5,12 +5,22 @@
 }
 
 :root {
-  /* color */
+  /* Color */
   --text-color: #fff;
   --text-color-alt: #a1a1a6;
   --accent-color: #0071e3;
   --acent-color-alt: #2997ff;
   --body-bg: #000;
+  --bg-color: #151516;
+  --bg-color-alt: #1d1d1f;
+
+  /* Stacking context */
+  --z-negative: -1;
+  --z-normal: 1;
+  --z-sticky: 50;
+
+  /* Utils */
+  --header-height: 3rem;
 }
 
 body {
@@ -21,7 +31,7 @@ body {
 }
 
 button {
-  all: unser;
+  all: unset;
   cursor: pointer;
 }
 
@@ -32,6 +42,14 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.black-background {
+  background-color: var(--bg-color);
+}
+
+.black-background-alt {
+  background-color: var(--bg-color-alt);
 }
 
 /* 
